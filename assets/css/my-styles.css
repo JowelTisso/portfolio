@@ -1,0 +1,39 @@
+/* Project */
+
+.section-header {
+  text-align: center;
+  background-color: var(--primary-color);
+  /* background-color: #2b333b; */
+  height: 4rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.spotlight {
+  padding: 2rem 0;
+}
+
+.spotlight .image {
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.spotlight .image img {
+  border-radius: 10px;
+}
+
+.stack p span {
+  /* background-color: var(--primary-color); */
+  background-color: #373f45;
+  color: #fff;
+  font-weight: 500;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
