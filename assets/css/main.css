@@ -2855,10 +2855,6 @@ button:disabled,
 }
 
 @media screen and (max-width: 980px) {
-  .spotlight {
-    display: block;
-  }
-
   .spotlight br {
     display: none;
   }
@@ -2878,6 +2874,10 @@ button:disabled,
 @media screen and (max-width: 736px) {
   .spotlight .content {
     padding: 3em 2em 1em 2em;
+  }
+
+  .spotlight {
+    display: block;
   }
 }
 
@@ -3821,7 +3821,7 @@ body.is-menu-visible #menu {
   }
 
   #banner .more {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -4094,7 +4094,7 @@ body.landing #footer {
 }
 
 body.is-mobile.landing #page-wrapper {
-  background: none;
+  /* background: none; */
 }
 
 body.is-mobile.landing #banner,
