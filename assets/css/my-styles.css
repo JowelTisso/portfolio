@@ -23,7 +23,6 @@
 }
 
 .stack p span {
-  /* background-color: var(--primary-color); */
   background-color: #373f45;
   color: #fff;
   font-weight: 500;
@@ -36,4 +35,8 @@
 .links {
   display: flex;
   gap: 2rem;
+}
+
+.custom-icon svg {
+  transform: rotate(45deg);
 }
