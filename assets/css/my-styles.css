@@ -3,7 +3,6 @@
 .section-header {
   text-align: center;
   background-color: var(--primary-color);
-  /* background-color: #2b333b; */
   height: 4rem;
   margin: 0;
   padding: 1rem;
@@ -39,4 +38,50 @@
 
 .custom-icon svg {
   transform: rotate(45deg);
+}
+
+@media screen and (max-width: 980px) {
+  .body {
+    background-color: #000;
+  }
+
+  .links {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .icons li {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .spotlight .image {
+    margin: 0;
+  }
+  .spotlight .image img {
+    width: 90%;
+    margin: auto;
+  }
+
+  #banner {
+    height: 100vh;
+  }
+
+  .icon.major {
+    height: calc(4em + 2px);
+    width: calc(4em + 2px);
+  }
+
+  .custom-icon svg {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #banner {
+    height: 95vh;
+  }
 }
